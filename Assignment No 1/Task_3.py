@@ -1,4 +1,4 @@
-class Task1:
+class Task3:
     def __init__(self,states,inputs,string_in,final_state):
         self.states=states
         self.inputs=inputs
@@ -64,6 +64,6 @@ class Task1:
 states=['Q0','Q1','Q2','Q3']
 inputs=['a','b','c']
 string_in=input("Enter Your input String: ")
-final_state='q0'
-obj=Task1(states,inputs,string_in,final_state)
+final_state='Q2'
+obj=Task3(states,inputs,string_in,final_state)
 obj.starting()
