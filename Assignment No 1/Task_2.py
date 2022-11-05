@@ -65,6 +65,6 @@ class Task2:
 states=['Q0','Q1','Q2','Q3','Q4']
 inputs=['0','1']
 string_in=input("Enter Your input String: ")
-final_state='q0'
+final_state=['Q4','Q2']
 obj=Task2(states,inputs,string_in,final_state)
 obj.starting()
